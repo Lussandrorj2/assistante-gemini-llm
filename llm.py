@@ -2,6 +2,16 @@ import os
 from dotenv import load_dotenv
 from google import genai
 
+
+def get_api_key():
+    if "GEMINI_API_KEY" in st.secrets:
+        return st.secrets["GEMINI_API_KEY"]
+    return os.getenv("GEMINI_API_KEY")
+
+client = genai.Client(api_key=get_api_key())
+
+
+
 load_dotenv()
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
@@ -17,3 +27,5 @@ def ask_llm(messages):
     )
 
     return response.text
+
+
