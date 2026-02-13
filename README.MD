@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🤖 Assistente Inteligente com Gemini
 
 Assistente conversacional estilo ChatGPT desenvolvido em Python, utilizando a API do Google Gemini e interface web com Streamlit.
@@ -7,7 +7,7 @@ Este projeto demonstra integração real com um LLM externo, controle de histór
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivo 
 
 Construir um assistente inteligente utilizando um modelo de linguagem externo (LLM), com foco em:
 
@@ -98,6 +98,9 @@ Google Gemini API
 ↓  
 Resposta exibida na interface  
 
-Estrutura do projeto:
+## 🚀 Deploy
 
->>>>>>> 64349d14943e42fcb63fcd2fb7bc11af68483e35
+Acesse a aplicação online:
+
+🔗 https://assistante-rj.streamlit.app/
+
