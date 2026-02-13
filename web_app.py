@@ -4,7 +4,7 @@ from prompts import SYSTEM_PROMPT
 
 st.set_page_config(page_title="Assistente Inteligente", page_icon="🤖")
 
-st.title("🤖 Assistente com Gemini")
+st.title("🤖 Assistente com Gemini criado por Lussandro Farias")
 st.markdown("Projeto 2 - LLM externo gratuito")
 
 # Inicializa histórico na sessão
